@@ -8,12 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var count: Int =  0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Счетчик: \(count)")
+                .font(.title)
+            ZStack {
+                Capsule()
+                    .frame(width: 200, height: 55, alignment: .center)
+                    .foregroundColor(.mint)
+//                Text("Число нажатий: \(count)")
+                Text("Нажми")
+                    .foregroundColor(.white)
+                    .font(.callout)
+            }.onTapGesture {
+                count += 1
+            }
+            ZStack {
+                Capsule()
+                    .frame(width: 200, height: 55, alignment: .center)
+                    .foregroundColor(.mint)
+                Text("Обнулить")
+                    .foregroundColor(.white)
+                    .font(.callout)
+            }.onTapGesture {
+                count = 0
+            }
         }
         .padding()
     }
