@@ -11,7 +11,9 @@
 		580389CD28E1BBB1008D5FC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580389CC28E1BBB1008D5FC1 /* ContentView.swift */; };
 		580389CF28E1BBB3008D5FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580389CE28E1BBB3008D5FC1 /* Assets.xcassets */; };
 		580389D228E1BBB3008D5FC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580389D128E1BBB3008D5FC1 /* Preview Assets.xcassets */; };
-		580389D928E1BDA8008D5FC1 /* ButtonActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580389D828E1BDA8008D5FC1 /* ButtonActions.swift */; };
+		587AD65D28EEE3B500445CCF /* ImageByTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AD65C28EEE3B500445CCF /* ImageByTouch.swift */; };
+		587AD65F28EEE59E00445CCF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AD65E28EEE59E00445CCF /* ImageView.swift */; };
+		587AD66128EEE96600445CCF /* BackgroundByTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587AD66028EEE96600445CCF /* BackgroundByTouch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +22,9 @@
 		580389CC28E1BBB1008D5FC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		580389CE28E1BBB3008D5FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580389D128E1BBB3008D5FC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		580389D828E1BDA8008D5FC1 /* ButtonActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonActions.swift; sourceTree = "<group>"; };
+		587AD65C28EEE3B500445CCF /* ImageByTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageByTouch.swift; sourceTree = "<group>"; };
+		587AD65E28EEE59E00445CCF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		587AD66028EEE96600445CCF /* BackgroundByTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundByTouch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 				580389CC28E1BBB1008D5FC1 /* ContentView.swift */,
 				580389CE28E1BBB3008D5FC1 /* Assets.xcassets */,
 				580389D028E1BBB3008D5FC1 /* Preview Content */,
-				580389D828E1BDA8008D5FC1 /* ButtonActions.swift */,
+				587AD65C28EEE3B500445CCF /* ImageByTouch.swift */,
+				587AD65E28EEE59E00445CCF /* ImageView.swift */,
+				587AD66028EEE96600445CCF /* BackgroundByTouch.swift */,
 			);
 			path = MobileDevThree;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587AD65F28EEE59E00445CCF /* ImageView.swift in Sources */,
 				580389CD28E1BBB1008D5FC1 /* ContentView.swift in Sources */,
-				580389D928E1BDA8008D5FC1 /* ButtonActions.swift in Sources */,
+				587AD65D28EEE3B500445CCF /* ImageByTouch.swift in Sources */,
+				587AD66128EEE96600445CCF /* BackgroundByTouch.swift in Sources */,
 				580389CB28E1BBB1008D5FC1 /* MobileDevThreeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
